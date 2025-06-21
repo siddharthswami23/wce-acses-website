@@ -1,10 +1,9 @@
 const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
-      <div className="text-white-500 flex gap-2">
-        <p>Terms & Conditions</p>
-        <p>|</p>
-        <p>Privacy Policy</p>
+      <div className="text-white-500 flex flex-col gap-2">
+        <p>Walchand College Of Engineering, Vishrambag</p>
+        <p> Sangli, Maharashtra - 416415</p>
       </div>
 
       <div className="flex gap-3">
@@ -19,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+      <p className="text-white-500">Copyright © All Rights Reserved by WCEACSES</p>
     </footer>
   );
 };
