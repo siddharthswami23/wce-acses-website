@@ -3,8 +3,8 @@ import About from './sections/About.jsx';
 import Footer from './sections/Footer.jsx';
 import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
-import WorkExperience from './sections/Experience.jsx';
 import Events from './sections/Events.jsx';
+import Teams from './sections/Teams.jsx';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Events />
-      <WorkExperience />
+      <Teams />
       <Contact />
       <Footer />
     </main>

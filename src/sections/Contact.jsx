@@ -65,10 +65,14 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space" id="contact">
       {alert.show && <Alert {...alert} />}
-
-      <div className="relative min-h-screen flex items-center justify-center flex-col border rounded-2xl">
+      <div className="relative min-h-screen flex items-center justify-center flex-col border rounded-2xl overflow-hidden ">
+        <div className="absolute top-0 left-0 w-full h-10 bg-gray-100 flex items-center justify-start px-5 gap-4">
+          <div className="bg-yellow-300 w-5 h-5 rounded-full"></div>
+          <div className="bg-red-500 w-5 h-5 rounded-full"></div>
+          <div className="bg-green-500 w-5 h-5 rounded-full"></div>
+        </div>
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">

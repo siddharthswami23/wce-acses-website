@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
+    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 mt-10">
       <div className="text-white-500 flex flex-col gap-2">
         <p>Walchand College Of Engineering, Vishrambag</p>
         <p> Sangli, Maharashtra - 416415</p>

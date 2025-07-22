@@ -6,13 +6,13 @@ import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { BoardPositions } from '../constants/index.js';
 
-const WorkExperience = () => {
+const Teams = () => {
   const [animationName, setAnimationName] = useState('idle');
 
   return (
-    <section className="c-space my-20" id="work">
+    <section className="c-space my-20" id="teams">
       <div className="w-full text-white-600">
-        <p className="head-text">Our Boards</p>
+        <p className="head-text">Our Teams</p>
 
         <div className="work-content mt-10">
           <div className="sm:py-10 py-5 sm:px-5 px-2.5">
@@ -47,4 +47,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Teams;
