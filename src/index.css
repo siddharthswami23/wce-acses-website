@@ -13,6 +13,15 @@ body {
   font-family: 'General Sans', sans-serif;
 }
 
+.light-rays-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  pointer-events: none;
+  z-index: 3;
+  overflow: hidden;
+}
+
 @layer utilities {
   .c-space {
     @apply sm:px-10 px-5;
