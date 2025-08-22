@@ -5,10 +5,11 @@ import { OrbitControls } from '@react-three/drei';
 import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { BoardPositions } from '../constants/index.js';
+import { useNavigate } from 'react-router-dom';
 
 const Teams = () => {
   const [animationName, setAnimationName] = useState('idle');
-
+  const navigate = useNavigate();
   return (
     <section className="c-space my-20" id="teams">
       <div className="w-full text-white-600">
@@ -19,7 +20,7 @@ const Teams = () => {
             {BoardPositions.map((item, index) => (
               <div
                 key={index}
-                onClick={() => setAnimationName(item.animation.toLowerCase())}
+                onClick={() => navigate(`/teams/`)}
                 onPointerOver={() => setAnimationName(item.animation.toLowerCase())}
                 onPointerOut={() => setAnimationName('idle')}
                 className="work-content_container group">
